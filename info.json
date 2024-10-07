@@ -9,6 +9,7 @@
     "homepage": "https://github.com/asvdvl/factorio-mod-template",
     "package":{
         "ignore":[
+            "*.kra"
         ]
     }
 }
