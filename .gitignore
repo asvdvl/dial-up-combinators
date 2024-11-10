@@ -1,2 +1,4 @@
 *.zip
-*.kra~
+*~
+sound/sound.aup3
+sound/.old
