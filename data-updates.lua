@@ -27,8 +27,8 @@ for _, name in pairs(combinator_proto_cats) do
         for _, proto in pairs(data.raw[name]) do
             if proto.working_sound then
                 proto.working_sound.activate_sound = sound_definition
-                proto.working_sound.sound = {filename = path_prefix.."/noise.ogg"}
-                proto.deactivate_sound = {filename = path_prefix.."BusySignal.ogg", volume = 0.5}
+                proto.working_sound.sound = {filename = path_prefix.."/noise.ogg", allow_random_repeat=true}
+                proto.working_sound.deactivate_sound = {filename = path_prefix.."BusySignal.ogg", volume = 0.5}
             end
         end
     end
