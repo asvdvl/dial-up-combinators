@@ -2,9 +2,9 @@
     "title": "Dial-up combinators",
     "name": "dial-up-combinators",
     "author": "asvdev(in game - Dial-up)",
-    "factorio_version": "1.1",
-    "version": "0.1.0",
-    "dependencies": ["base >= 1.0.0"],
+    "factorio_version": "2.0",
+    "version": "2.0.0",
+    "dependencies": ["base >= 2.0.0"],
     "description": "replaces combinator sounds with dial-up sounds",
     "homepage": "https://github.com/asvdvl/dial-up-combinators",
     "package":{
